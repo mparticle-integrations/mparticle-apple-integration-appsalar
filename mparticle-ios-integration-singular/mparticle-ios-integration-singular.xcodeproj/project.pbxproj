@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,6 +19,7 @@
 		2116BD4121D3C2F600DFE453 /* mparticle_ios_integration_singularTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2116BD4021D3C2F600DFE453 /* mparticle_ios_integration_singularTests.m */; };
 		2116BD4321D3C2F600DFE453 /* mparticle_ios_integration_singular.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21D1D2EA21D28648007D715E /* mparticle_ios_integration_singular.framework */; };
 		21D1D2EF21D28648007D715E /* mparticle_ios_integration_singular.h in Headers */ = {isa = PBXBuildFile; fileRef = 21D1D2ED21D28648007D715E /* mparticle_ios_integration_singular.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5312DB162BC8445F0053FF8F /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 5312DB152BC8445F0053FF8F /* PrivacyInfo.xcprivacy */; };
 		B910BAF6D3779CF1012DE733 /* libPods-mparticle-ios-integration-singular.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 958207AF41BE1D1BB347B893 /* libPods-mparticle-ios-integration-singular.a */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,7 @@
 		21D1D2EE21D28648007D715E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21D1D32121D28C38007D715E /* libmParticle-Apple-SDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libmParticle-Apple-SDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38AD3862B8021CA90F8678EF /* Pods-mparticle_ios_integration_singularTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mparticle_ios_integration_singularTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mparticle_ios_integration_singularTests/Pods-mparticle_ios_integration_singularTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5312DB152BC8445F0053FF8F /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		958207AF41BE1D1BB347B893 /* libPods-mparticle-ios-integration-singular.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mparticle-ios-integration-singular.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A581A810D077D6AB25E305AA /* Pods-mparticle_ios_integration_singularTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mparticle_ios_integration_singularTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-mparticle_ios_integration_singularTests/Pods-mparticle_ios_integration_singularTests.release.xcconfig"; sourceTree = "<group>"; };
 		B61A4C942EA9BC0D43A91C65 /* libPods-mparticle_ios_integration_singularTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mparticle_ios_integration_singularTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,6 +94,7 @@
 			children = (
 				1A0391D32860C5D4000B6207 /* include */,
 				1A0391CD2860C032000B6207 /* MPKitSingular.m */,
+				5312DB152BC8445F0053FF8F /* PrivacyInfo.xcprivacy */,
 			);
 			path = "mParticle-Singular";
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			files = (
 				2116BD1A21D3745100DFE453 /* LICENSE in Resources */,
 				2116BD1621D3745100DFE453 /* README.md in Resources */,
+				5312DB162BC8445F0053FF8F /* PrivacyInfo.xcprivacy in Resources */,
 				2116BD1721D3745100DFE453 /* mParticle-Singular.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
