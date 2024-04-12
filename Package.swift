@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "mParticle-Singular",
-    platforms: [ .iOS(.v9) ],
+    platforms: [ .iOS(.v12) ],
     products: [
         .library(
             name: "mParticle-Singular",
