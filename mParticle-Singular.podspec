@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
 	s.static_framework = true
     s.ios.deployment_target = "12.0"
     s.ios.source_files      = 'Sources/mParticle-Singular/**/*.{h,m,mm}'
+    s.ios.resource_bundles  = { 'mParticle-Singular-Privacy' => ['Sources/mParticle-Singular/PrivacyInfo.xcprivacy'] }
     s.ios.dependency 'mParticle-Apple-SDK/mParticle', '~> 8.0'
     s.ios.dependency 'Singular-SDK', '~> 12.4'
 
