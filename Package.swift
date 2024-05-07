@@ -23,7 +23,8 @@ let package = Package(
             dependencies: [
                .product(name: "mParticle-Apple-SDK", package: "mparticle-apple-sdk"),
                .product(name: "Singular", package: "Singular-iOS-SDK"),
-            ]
+            ],
+            resources: [.process("PrivacyInfo.xcprivacy")]
         )
     ]
 )
